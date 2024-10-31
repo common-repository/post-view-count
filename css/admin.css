@@ -1,0 +1,27 @@
+span#post_views_count:before {
+    display: inline-block;
+    font: 400 20px/1 dashicons;
+    left: -1px;
+    padding: 0 2px 0 0;
+    position: relative;
+    text-decoration: none !important;
+    vertical-align: top;
+    color: #888;
+    content: "\f185";
+    top: -1px;
+}
+.pwcgk_inner{
+	min-width: 763px;
+	float: left;
+	background-color: #fff;
+	padding: 10px;
+} 
+.notice-success.pwcgk-success-msg
+{
+	border-left-color: #46b450;
+}
+
+.notice-error.pwcgk-error-msg
+{
+	border-left-color: red! important;
+}
